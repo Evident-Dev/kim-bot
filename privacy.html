@@ -37,11 +37,20 @@ run squads, and nothing else. We never sell, share or use your data for advertis
 <tr><td>Squad details: channel ID, owner's Discord user ID, name, privacy, and the setup answers you enter (activity, relic, region, min MR, notes)</td><td>To run the squad and its control panel</td><td>Deleted when the squad channel is deleted</td></tr>
 <tr><td>Your saved squad settings: last squad name, user limit, privacy, setup answers</td><td>So "Use last setup" and saved settings work next time</td><td>Until you ask us to delete them</td></tr>
 <tr><td>Your trusted and blocked lists (Discord user IDs)</td><td>So people you trust or block stay that way in your next squad</td><td>Until you remove them or ask us to delete them</td></tr>
+<tr><td>Clans: the clan name, its owner, and its members (Discord user IDs and join dates)</td><td>To run clans and let clanmates join each other's Clan squads</td><td>Until you leave the clan, or until the clan is disbanded</td></tr>
+<tr><td>Clan invites: who was invited, by whom, and when</td><td>To deliver the invite to your DMs</td><td>Deleted when you accept or decline, or after 7 days</td></tr>
+<tr><td>When you created a clan</td><td>Each member can create one clan every 30 days</td><td>Kept, so the 30-day rule still works after a clan is disbanded</td></tr>
 <tr><td>Activity log: who did what (Discord user ID and display name, the action, the time)</td><td>To let moderators deal with abuse</td><td>Until moderators clear it or you ask us to delete yours</td></tr>
 <tr><td>Admin sign-in (admins only): Discord user ID, username, avatar link</td><td>To sign server admins in to KIM's management page</td><td>Deleted when the sign-in expires or the admin signs out</td></tr>
 </table></div>
 <p>A Discord user ID is a public number Discord gives every account. KIM's admin sign-in asks Discord only for basic
 profile info (the <code>identify</code> permission), not your email or servers.</p>
+
+<h2>Clans and server boosts</h2>
+<p>Creating a clan is a perk for people who boost the server. KIM checks with Discord whether
+each clan owner still boosts the server, about once an hour. KIM does not store this; it only
+stores the date it first saw an owner stop boosting. If the owner doesn't boost again within 14
+days, KIM disbands the clan.</p>
 
 <h2>Where it's kept</h2>
 <p>KIM's data is kept in a private database run by the Warframe LFG team. It is not shared with anyone. Discord
