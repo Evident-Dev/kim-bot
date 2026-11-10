@@ -19,14 +19,16 @@
 </header>
 <main>
 <h1>Privacy Policy</h1>
-<p class="sub">Effective November 9, 2026</p>
-<p>KIM is a private Discord bot made and maintained by the Warframe LFG team. We keep the bare minimum KIM needs to
-run squads, and nothing else. We never sell, share or use your data for advertising, tracking or analytics.</p>
+<p class="sub">Effective November 10, 2026</p>
+<p>KIM is a private Discord bot made and maintained by the Warframe LFG team. KIM keeps only what it needs to run
+squads, clans and moderation in the server. We never sell your data, share it outside the server's admins and
+moderators, or use it for advertising.</p>
 
 <h2>What KIM does not collect</h2>
 <ul>
   <li><b>Messages.</b> KIM can't read chat messages. It doesn't ask Discord for message content.</li>
-  <li><b>Voice.</b> KIM never listens to or records voice.</li>
+  <li><b>Voice audio.</b> KIM never listens to or records what anyone says. It only notes when you join and leave
+  voice channels (see <a href="#voice-activity">Voice activity</a>).</li>
   <li><b>Passwords.</b> KIM never sees or stores a password. Sign-in uses Discord's own login.</li>
   <li><b>Email addresses</b>, real names, payment details or your Discord friends list.</li>
 </ul>
@@ -41,6 +43,7 @@ run squads, and nothing else. We never sell, share or use your data for advertis
 <tr><td>Clan invites: who was invited, by whom, and when</td><td>To deliver the invite to your DMs</td><td>Deleted when you accept or decline, or after 7 days</td></tr>
 <tr><td>When you created a clan</td><td>Each member can create one clan every 30 days</td><td>Kept, so the 30-day rule still works after a clan is disbanded</td></tr>
 <tr><td>Activity log: who did what (Discord user ID and display name, the action, the time)</td><td>To let moderators deal with abuse</td><td>Until moderators clear it or you ask us to delete yours</td></tr>
+<tr><td>Voice activity: when you join and leave voice channels in the server (the channel and the times), your server display name and avatar link, and how much time you spend in voice with other members</td><td>To help server admins with moderation, for example checking who was in voice together and when</td><td>Kept indefinitely, unless you ask us to delete it</td></tr>
 <tr><td>Admin sign-in (admins only): Discord user ID, username, avatar link</td><td>To sign server admins in to KIM's management page</td><td>Deleted when the sign-in expires or the admin signs out</td></tr>
 </table></div>
 <p>A Discord user ID is a public number Discord gives every account. KIM's admin sign-in asks Discord only for basic
@@ -52,13 +55,20 @@ each clan owner still boosts the server, about once an hour. KIM does not store 
 stores the date it first saw an owner stop boosting. If the owner doesn't boost again within 14
 days, KIM disbands the clan.</p>
 
+<h2 id="voice-activity">Voice activity</h2>
+<p>KIM notes when members join and leave every voice channel in the server, except the AFK channel. From that it
+works out how much time members spend in voice with each other. Time in small groups counts more than time in a
+big, busy channel. KIM does not hear or record any audio, and does not read messages.</p>
+<p>Only server admins can see this, on KIM's private management page. It shows who spends time in voice with
+whom, and when two members were in the same voice channel. Each time an admin looks up two members, KIM writes
+that to the admins' log. This data is not shared outside the server's admins.</p>
+
 <h2>Moderator log channels</h2>
 <p>KIM can post squad and clan events to log channels in the server that only moderators can
 see: who made, joined or left a squad, who changed its settings, and clan events such as
 invites, joins, leaves and disbands. Each post shows the member's Discord name and user ID. KIM
 does not log chat messages. These posts are ordinary Discord messages: they stay in the server
-until moderators delete them. Squad joins and leaves are only posted there; KIM does not keep them
-in its own database.</p>
+until moderators delete them.</p>
 
 <h2>Where it's kept</h2>
 <p>KIM's data is kept in a private database run by the Warframe LFG team. It is not shared with anyone outside the server's moderators. Discord
@@ -67,7 +77,8 @@ itself handles your account and messages under
 
 <h2>Your choices</h2>
 <ul>
-  <li>Don't want KIM to store anything about you? Don't use KIM hub channels.</li>
+  <li>KIM records voice activity in every voice channel in the server except the AFK channel. If you don't want it
+  recorded, don't use the server's voice channels.</li>
   <li>To see or delete what KIM has stored about you, message a moderator in the Warframe LFG Discord server. We'll
   delete it within 30 days.</li>
 </ul>
